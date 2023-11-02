@@ -1,1 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/DUj7T_Sj)
+# Hi I am Iry!
+visit my first site [here](https://revou-fsse-3.github.io/module-1-IryIndriyanto/)
+
+
+
+![IryIndriyanto](assets/img1.jpg)
+
+Hello, I'm Iry Indriyanto. I'm an electrical engineer with a strong interest in the world of technology. In addition to my main job as an electrical engineer, I'm currently on a learning journey as a software engineer at RevoU. I made this decision because I want to develop my skills in software development and seek better career opportunities in the tech industry. I believe that the combination of expertise in electrical engineering and software will open doors to exciting opportunities and allow me to contribute more to this industry. I'm very enthusiastic about continuous learning and growth.
+
+Let's connect on [linkedIn](https://www.linkedin.com/in/iry-indriyanto-357167111)
