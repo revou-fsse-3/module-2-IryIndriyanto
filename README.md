@@ -1,5 +1,5 @@
 # COOKING CAT
-visit my first site [here](https://revou-fsse-3.github.io/module-1-IryIndriyanto/)
+visit my first site [here](https://revou-fsse-3.github.io/module-2-IryIndriyanto/)
 
 ---
 >#### ***"From Kitchen to Heart: Where Recipes Become Memories"***
@@ -32,23 +32,23 @@ Let's connect on [linkedIn](https://www.linkedin.com/in/iry-indriyanto-357167111
 
 ## Module-2 Assignment Checklist
 
-- [ ] Responsive Image
-  - [ ] implement contain or cover
-  - [ ] implement image srcset
+- [x] Responsive Image
+  - [x] implement contain or cover
+  - [x] implement image srcset
 
-- [ ] Responsive asymmetrical layout
-- [ ] Implement date input
-- [ ] Font customization
+- [x] Responsive asymmetrical layout
+- [x] Implement date input
+- [x] Font customization
 
-  - [ ] using @font-face
-  - [ ] using text-shadow
+  - [x] using @font-face
+  - [x] using text-shadow
   - [ ] using list-style
 
-- [ ] Responsive animation and transition
+- [x] Responsive animation and transition
 
-  - [ ] using @keyframes
-  - [ ] using transition
-  - [ ] responsive
+  - [x] using @keyframes
+  - [x] using transition
+  - [x] responsive
 
 - [ ] Documenting deployment
 - [ ] Connect Netlify to Github
