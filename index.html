@@ -7,17 +7,23 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <button id="theme-toggle">Theme</button>
     <header>
       <!-- start of navigation bar -->
       <nav>
-        <img class="logo" src="./assets/logo.png" />
+        <img class="logo" src="./assets/logo.png" alt="Cat Smiling"/>
         <div class="menu">
           <a href="#main">HOME</a>
           <a href="#main">ABOUT</a>
           <a href="#main">CONTACT</a>
           <img class="profile-pic" src="./assets/profile.png" />
         </div>
-        <span class="ham-menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <span
+          class="ham-menu"
+          style="font-size: 30px; cursor: pointer"
+          onclick="openNav()"
+          >&#9776;</span
+        >
         <div id="menu-mobile">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
             &times;
@@ -33,12 +39,16 @@
     <main>
       <!-- start of hero section -->
       <section class="hero">
-        <div class="bg-search-box">
-          <img src="./assets/bg1.jpg" alt="" />
-        </div>
+        <picture class="bg-search-box">
+          <img
+            src="./assets/bg1.jpg"
+            alt="macam-macam makanan indonesia dilihat dari atas"
+          />
+        </picture>
         <div class="search-box-wrapper">
           <div class="search-box">
             <label for="search-input">Cooking Cat !</label>
+
             <form class="search-form">
               <input
                 type="text"
@@ -48,10 +58,37 @@
               />
               <button type="button">Search</button>
             </form>
+            <i>"From Kitchen to Heart: Where Recipes Become Memories"</i>
           </div>
         </div>
       </section>
       <!-- end of hero section -->
+
+
+      <!-- start of gallery section -->
+      <section class="gallery">
+        <img class="cat-animation" src="./assets/cat-animation.png" alt="kucing tersenyum">
+        <div class="gallery__title">Rendang Daging khas Padang</div>
+        <picture class="gallery__picture">
+          <img
+            src="./assets/rendang.webp"
+            alt="Rendang daaging dalam mangkuk"
+          />
+        </picture>
+        <picture class="gallery__picture-2">
+          <img src="./assets/bumbu-rendang.jpg" alt="Bumbu Rendang" />
+        </picture>
+        <picture class="gallery__picture-3">
+          <img src="./assets/masak-rendang.jpg" alt="Rendang sedang dimasak" />
+        </picture>
+        <div class="gallery__footer">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+          reprehenderit magnam et dolorum, repudiandae laudantium iure nulla,
+          laboriosam totam numquam tenetur enim asperiores dolor odio? Voluptate
+          magnam nam et dignissimos!
+        </div>
+      </section>
+      <!-- start of gallery section -->
 
       <!-- start of write recipe section -->
       <section class="write-recipe">
@@ -59,9 +96,10 @@
           <label for="title" class="title">Tulis Resepmu, Meow</label>
           <input type="text" id="title" />
           <select name="" id="category">
-            <option value="">Makanan</option>
-            <option value="">Minuman</option>
-            <option value="">Camilan</option>
+            <option value="" disabled selected>---Pilih Kategori---</option>
+            <option value="food">Makanan</option>
+            <option value="drink">Minuman</option>
+            <option value="snack">Camilan</option>
           </select>
           <label for="food-photo" class="file"
             ><p>Klik disini untuk</p>
@@ -82,6 +120,8 @@
     <footer>
       <h1>Contact Us</h1>
     </footer>
+
+    
     <script src="./script.js"></script>
   </body>
 </html>
