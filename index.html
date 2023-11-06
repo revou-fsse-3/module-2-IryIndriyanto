@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta
+      name="description"
+      content="Website for sharing Recipes whit cat as a mascot, with purpose to pleasant every people with good food"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CookingCat</title>
@@ -14,9 +18,13 @@
         <img class="logo" src="./assets/logo.png" alt="Cat Smiling" />
         <div class="menu">
           <a href="#main">HOME</a>
-          <a href="#main">ABOUT</a>
-          <a href="#main">CONTACT</a>
-          <img class="profile-pic" src="./assets/profile.png"  alt="foto profil" />
+          <a href="#write-recipe">WRITE</a>
+          <a href="#footer">CONTACT</a>
+          <img
+            class="profile-pic"
+            src="./assets/profile.png"
+            alt="foto profil"
+          />
         </div>
         <span
           class="ham-menu"
@@ -25,18 +33,22 @@
           >&#9776;</span
         >
         <div id="menu-mobile">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+          <span class="closebtn" onclick="closeNav()">
             &times;
-          </a>
-          <img class="profile-pic" src="./assets/profile.png" alt="foto profil"/>
+          </span>
+          <img
+            class="profile-pic"
+            src="./assets/profile.png"
+            alt="foto profil"
+          />
           <a href="#main">HOME</a>
-          <a href="#main">ABOUT</a>
-          <a href="#main">CONTACT</a>
+          <a href="#write-recipe">WRITE</a>
+          <a href="#footer">CONTACT</a>
         </div>
       </nav>
       <!-- end of navigation bar -->
     </header>
-    <main>
+    <main id="main">
       <!-- start of hero section -->
       <section class="hero">
         <picture class="bg-search-box">
@@ -67,7 +79,6 @@
                   xmlns="http://www.w3.org/2000/svg"
                   height="1em"
                   viewBox="0 0 512 512"
-                  
                 >
                   <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                   <path
@@ -114,7 +125,7 @@
       <!-- start of gallery section -->
 
       <!-- start of write recipe section -->
-      <section class="write-recipe">
+      <section class="write-recipe" id="write-recipe">
         <form action="">
           <label for="title" class="title">Tulis Resepmu, Meow</label>
           <input type="text" id="title" placeholder="Nama Resepmu" />
@@ -131,7 +142,12 @@
           </label>
           <input type="file" name="" id="food-photo" class="file" />
           <label for="ingredients" class="ingredients">Bahan-bahan</label>
-          <textarea name="ingredients" id="ingredients" cols="30" rows="10"></textarea>
+          <textarea
+            name="ingredients"
+            id="ingredients"
+            cols="30"
+            rows="10"
+          ></textarea>
           <label for="steps" class="steps">Langkah Memasak</label>
           <textarea name="steps" id="steps" cols="30" rows="10"></textarea>
           <input type="submit" id="submit" />
@@ -140,7 +156,7 @@
 
       <!-- end of write recipe section -->
     </main>
-    <footer>
+    <footer id="footer">
       <h1>Contact Us</h1>
     </footer>
 
