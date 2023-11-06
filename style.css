@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Nunito";
   src: url(./assets/font/Nunito/static/Nunito-Medium.ttf);
-  /* src: url(./assets/font/EduTASBeginner-Medium.ttf); */
 }
 
 @font-face {
@@ -184,7 +183,7 @@ main {
     position: relative;
     height: clamp(25rem, 100vw, 35rem);
 
-    & .bg-search-box {      
+    & .bg-search-box {
       width: 100%;
       height: 100%;
       display: flex;
@@ -209,7 +208,6 @@ main {
       max-width: 800px;
 
       & .search-box {
-        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -223,7 +221,7 @@ main {
         border: rgba(240, 218, 76, 0.922) solid 2px;
         border-radius: 2rem;
 
-        & label {
+        & .big-text {
           font-family: "Pacifico";
           font-size: 3rem;
           color: var(--text-color);
@@ -234,7 +232,7 @@ main {
           }
         }
 
-        & label:hover {
+        & .big-text:hover {
           transform: scale(1.2);
           text-shadow: #fc0 2px 0 10px;
         }
@@ -329,7 +327,6 @@ main {
       @media screen and (max-width: 769px) {
         display: none;
       }
-  
     }
 
     .gallery__title {
@@ -355,9 +352,8 @@ main {
 
       & img:hover {
         transform: scale(1.2);
-      }       
-      
-    }    
+      }
+    }
 
     .gallery__picture-2 {
       grid-row: 2;
@@ -537,11 +533,28 @@ main {
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 5rem 0;
   color: white;
   width: 100%;
   background-color: #3e5151;
+
+  & .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+    & svg {
+      margin-left: 0.5em;
+      fill: white;
+    }
+  }
+
+  & li {
+    margin: 1rem;
+    list-style: square;
+  }
 }
 
 /* for responsive */

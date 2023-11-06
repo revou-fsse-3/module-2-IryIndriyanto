@@ -28,6 +28,7 @@ Hello, I'm Iry Indriyanto. I'm an electrical engineer with a strong interest in 
 
 Let's connect on [linkedIn](https://www.linkedin.com/in/iry-indriyanto-357167111)
 
+---
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/DUj7T_Sj)
 
 ## Module-2 Assignment Checklist
@@ -42,7 +43,7 @@ Let's connect on [linkedIn](https://www.linkedin.com/in/iry-indriyanto-357167111
 
   - [x] using @font-face
   - [x] using text-shadow
-  - [ ] using list-style
+  - [x] using list-style
 
 - [x] Responsive animation and transition
 
@@ -51,6 +52,11 @@ Let's connect on [linkedIn](https://www.linkedin.com/in/iry-indriyanto-357167111
   - [x] responsive
 
 - [ ] Documenting deployment
-- [ ] Connect Netlify to Github
+- [x] Connect Netlify to Github (Github Pages)
 - [ ] Using custom domain
 ---
+## Module-2 Advanced Assignment
+
+- [x] Improve Accessibility and SEO 
+- [x] Dark mode with local storage
+- [ ] Image carousel without js
