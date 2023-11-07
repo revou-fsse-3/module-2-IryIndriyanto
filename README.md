@@ -1,5 +1,17 @@
+<!-- omit in toc -->
+# Table of Content
+
+- [About Website](#about-website)
+- [Key Features](#key-features)
+- [About Author](#about-author)
+- [Module-2 Assignment Checklist](#module-2-assignment-checklist)
+- [Module-2 Advanced Assignment](#module-2-advanced-assignment)
+
+
+<!-- omit in toc -->
 # COOKING CAT
-visit my first site [here](https://revou-fsse-3.github.io/module-2-IryIndriyanto/)
+
+ Visit Cooking Cat [revou-fsse-3.github.io/module-2-IryIndriyanto](https://revou-fsse-3.github.io/module-2-IryIndriyanto/)
 
 ---
 >#### ***"From Kitchen to Heart: Where Recipes Become Memories"***
@@ -21,6 +33,7 @@ At Cooking Cat, i believe that cooking is not just about sustenance; it's a crea
 
 ---
 ## About Author
+<!-- omit in toc -->
 ### Hi I am Iry!
 ![IryIndriyanto](assets/author.jpg)
 
@@ -59,4 +72,4 @@ Let's connect on [linkedIn](https://www.linkedin.com/in/iry-indriyanto-357167111
 
 - [x] Improve Accessibility and SEO 
 - [x] Dark mode with local storage
-- [ ] Image carousel without js
+- [x] Image carousel without js

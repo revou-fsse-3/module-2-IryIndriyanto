@@ -30,8 +30,9 @@
           class="ham-menu"
           style="font-size: 30px; cursor: pointer"
           onclick="openNav()"
-          >&#9776;</span
         >
+          &#9776;
+        </span>
         <div id="menu-mobile">
           <span class="closebtn" onclick="closeNav()"> &times; </span>
           <img
@@ -50,11 +51,33 @@
       <!-- start of hero section -->
       <section class="hero">
         <picture class="bg-search-box">
-          <img
-            src="./assets/bg1.jpg"
-            alt="macam-macam makanan indonesia dilihat dari atas"
-          />
+          <div id="bg">
+            <img
+              src="./assets/bg.jpg"
+              alt="macam-macam makanan indonesia dilihat dari atas"
+            />
+          </div>
+
+          <div id="bg1">
+            <img
+              src="./assets/bg1.jpg"
+              alt="macam-macam makanan indonesia dilihat dari atas"
+            />
+          </div>
+
+          <div id="bg2">
+            <img
+              src="./assets/bg2.jpg"
+              alt="macam-macam makanan indonesia dilihat dari atas"
+            />
+          </div>
+          <div class="pic-nav">
+          <a href="#bg">1</a><a href="#bg1">2</a><a href="#bg2">3</a>
+        </div>
         </picture>
+
+        
+
         <div class="search-box-wrapper">
           <div class="search-box">
             <span class="big-text">Cooking Cat !</span>
@@ -102,6 +125,7 @@
         />
         <div class="gallery__title">Rendang Daging khas Padang</div>
         <picture class="gallery__picture">
+          <source media="(max-width: 769px)" srcset="./assets/rendang2.jpeg" />
           <img
             src="./assets/rendang.webp"
             alt="Rendang daaging dalam mangkuk"
@@ -126,6 +150,12 @@
       <section class="write-recipe" id="write-recipe">
         <form action="">
           <label for="title" class="title">Tulis Resepmu, Meow</label>
+          <div class="time-cooking">
+            <label for="time">Waktu Memasak</label>
+            <span>0 </span>
+            <input type="range" id="time" name="time" min="0" max="120" />
+            <span>120 menit</span>
+          </div>
           <input type="text" id="title" placeholder="Nama Resepmu" />
           <select name="" id="category">
             <option value="" disabled selected>---Pilih Kategori---</option>
