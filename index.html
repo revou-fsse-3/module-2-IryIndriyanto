@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <button id="theme-toggle">Theme</button>
+    <button id="theme-toggle" class="theme-toggle">Theme</button>
     <header>
       <!-- start of navigation bar -->
       <nav>
@@ -33,7 +33,7 @@
         >
           &#9776;
         </span>
-        <div id="menu-mobile">
+        <div id="menu-mobile" class="menu-mobile">
           <span class="closebtn" onclick="closeNav()"> &times; </span>
           <img
             class="profile-pic"
@@ -72,11 +72,9 @@
             />
           </div>
           <div class="pic-nav">
-          <a href="#bg">1</a><a href="#bg1">2</a><a href="#bg2">3</a>
-        </div>
+            <a href="#bg">1</a><a href="#bg1">2</a><a href="#bg2">3</a>
+          </div>
         </picture>
-
-        
 
         <div class="search-box-wrapper">
           <div class="search-box">
@@ -88,12 +86,14 @@
                 placeholder="Mau makan apa hari ini, meow?"
                 name="search"
                 id="search-input-dekstop"
+                class="search-input-dekstop"
               />
               <input
                 type="text"
                 placeholder="Mau makan apa?"
                 name="search"
                 id="search-input-mobile"
+                class="search-input-mobile"
               />
               <button type="button" aria-label="tombol cari">
                 <svg
@@ -149,15 +149,27 @@
       <!-- start of write recipe section -->
       <section class="write-recipe" id="write-recipe">
         <form action="">
-          <label for="title" class="title">Tulis Resepmu, Meow</label>
+          <label for="title" class="title-label">Tulis Resepmu, Meow</label>
           <div class="time-cooking">
             <label for="time">Waktu Memasak</label>
             <span>0 </span>
-            <input type="range" id="time" name="time" min="0" max="120" />
+            <input
+              type="range"
+              id="time"
+              class="time"
+              name="time"
+              min="0"
+              max="120"
+            />
             <span>120 menit</span>
           </div>
-          <input type="text" id="title" placeholder="Nama Resepmu" />
-          <select name="" id="category">
+          <input
+            type="text"
+            id="title"
+            class="title"
+            placeholder="Nama Resepmu"
+          />
+          <select name="" id="category" class="category">
             <option value="" disabled selected>---Pilih Kategori---</option>
             <option value="food">Makanan</option>
             <option value="drink">Minuman</option>
@@ -168,7 +180,7 @@
             <p>Upload Foto</p>
             <p>Makananmu</p>
           </label>
-          <input type="file" name="" id="food-photo" class="file" />
+          <input type="file" name="" id="food-photo" class="file food-photo" />
           <label for="ingredients" class="ingredients">Bahan-bahan</label>
           <textarea
             name="ingredients"
@@ -176,9 +188,15 @@
             cols="30"
             rows="10"
           ></textarea>
-          <label for="steps" class="steps">Langkah Memasak</label>
-          <textarea name="steps" id="steps" cols="30" rows="10"></textarea>
-          <input type="submit" id="submit" />
+          <label for="steps" class="steps-label">Langkah Memasak</label>
+          <textarea
+            name="steps"
+            id="steps"
+            class="steps"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" id="submit" class="submit" />
         </form>
       </section>
 
@@ -230,13 +248,15 @@
           </svg>
         </div>
       </div>
-      <ul>
+      <div class="site-map">
         <b>SITE MAP</b>
-        <li>Recipes & Menus</li>
-        <li>What to Buy</li>
-        <li>Expert Advise</li>
-        <li>Events</li>
-      </ul>
+        <ul>
+          <li>Recipes & Menus</li>
+          <li>What to Buy</li>
+          <li>Expert Advise</li>
+          <li>Events</li>
+        </ul>
+      </div>
     </footer>
 
     <script src="./script.js"></script>
