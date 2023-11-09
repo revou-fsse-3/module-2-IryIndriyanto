@@ -81,18 +81,14 @@ body {
   color: var(--text-color);
   background-image: var(--bg-body);
   background-size: 600px;
-  /* background: var(--bg); */
   position: relative;
   transition: 0.3s;
-  
 }
 
 .theme-toggle {
   position: fixed;
   right: -0.8rem;
   top: 70px;
-  /* width: 50px;
-  height: 50px; */
   background-color: var(--bg-color);
   border: rgba(240, 218, 76, 0.922) solid 2px;
   border-radius: 5px 0 0 5px;
@@ -117,25 +113,25 @@ body {
 }
 
 header {
+  display: flex;
+  justify-content: center;
   width: 100%;
   position: sticky;
   top: 0;
   z-index: 2;
+  background-color: rgb(42, 39, 34);
 
   /* navigation bar */
   & nav {
-    padding: 0.5rem 5%;
+    flex-basis: 100%;
+    max-width: 1024px;
+    padding: 0.5rem 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     border-bottom: solid 2px rgb(99, 99, 99);
-    background-color: rgb(42, 39, 34);
     height: 60px;
-
-    /* .logo{
-     width: 180px;
-    } */
 
     & .menu {
       display: flex;
@@ -173,12 +169,12 @@ header {
 }
 
 main {
+  max-width: 1024px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 4rem;
   margin: 3vw max(8vw, 1rem);
-  
 
   /* hero section */
   & .hero {
@@ -200,7 +196,7 @@ main {
       border-radius: 2rem;
       scroll-behavior: smooth;
 
-      & div{
+      & div {
         flex: 1 0 100%;
         overflow: hidden;
         position: relative;
@@ -212,13 +208,13 @@ main {
         }
       }
 
-      & .pic-nav{
+      & .pic-nav {
         position: absolute;
         bottom: 10px;
         left: 50%;
         transform: translateX(-50%);
 
-        & a{
+        & a {
           padding: 3px;
           text-align: center;
           margin: 10px;
@@ -226,15 +222,15 @@ main {
           text-decoration: none;
           width: 30px;
           height: 30px;
-          background-color: rgb(255, 234, 112);
+          background-color: rgba(255, 255, 255, 0.8);
           border-radius: 50%;
-          border: solid black 1px;
+          border: solid rgba(0, 0, 0, 0.8) 1.5px;
         }
 
         @media screen and (max-width: 426px) {
           bottom: 5px;
 
-          & a{
+          & a {
             width: 25px;
             height: 25px;
             padding: 0;
@@ -243,8 +239,6 @@ main {
         }
       }
     }
-
-    
 
     & .search-box-wrapper {
       width: 100%;
@@ -270,7 +264,7 @@ main {
         border-radius: 2rem;
 
         & .big-text {
-          font-family: "Pacifico";
+          font-family: "Pacifico", sans-serif;
           font-size: 3rem;
           color: var(--text-color);
           transition: 0.5s;
@@ -297,37 +291,45 @@ main {
             border-radius: 20px 0 0 20px;
             border: none;
           }
-        }
 
-        .search-input-dekstop {
-          display: block;
-
-          @media screen and (max-width: 426px) {
-            display: none;
-          }
-        }
-
-        .search-input-mobile {
-          display: none;
-
-          @media screen and (max-width: 426px) {
+          & .search-input-dekstop {
             display: block;
+
+            @media screen and (max-width: 426px) {
+              display: none;
+            }
+          }
+
+          & .search-input-mobile {
+            display: none;
+
+            @media screen and (max-width: 426px) {
+              display: block;
+            }
+          }
+
+          & button {
+            font-size: 1rem;
+            padding: 0.8rem;
+            width: 20%;
+            border-radius: 0 20px 20px 0;
+            border: none;
+            background-color: #3e5151;
+            fill: white;
+            cursor: pointer;
+          }
+
+          & button:hover {
+            fill: #fc0;
           }
         }
 
-        & button {
-          font-size: 1rem;
-          padding: 0.8rem;
-          width: 20%;
-          border-radius: 0 20px 20px 0;
-          border: none;
-          background-color: #3e5151;
-          fill: white;
-          cursor: pointer;
-        }
+        & .web-quote {
+          text-align: center;
 
-        & button:hover {
-          fill: #fc0;
+          @media screen and (max-width: 376px) {
+            font-size: 0.8rem;
+          }
         }
       }
     }
@@ -386,8 +388,9 @@ main {
       display: flex;
       justify-content: center;
       align-items: center;
-      font-weight: 700;
-      font-size: 2em;
+      /* font-weight: 700; */
+      font-family: "Pacifico", sans-serif;
+      font-size: 3em;
       grid-column: span 2;
       text-align: center;
     }
@@ -534,7 +537,7 @@ main {
         grid-column: 1 / span 8;
         display: flex;
         justify-content: center;
-        align-items: baseline;
+        align-items: center;
         gap: 1.5em;
 
         & .time {
@@ -617,6 +620,7 @@ main {
 footer {
   display: flex;
   justify-content: space-around;
+  margin-top: 3rem;
   padding: 3rem 0;
   color: white;
   width: 100%;
