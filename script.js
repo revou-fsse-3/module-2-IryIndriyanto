@@ -23,7 +23,7 @@ toggle.onclick = function() {
 
 
 
-// Navigation menu button
+// Navigation hamburger menu button
 
 function openNav() {
     document.getElementById("menu-mobile").style.width = "20rem";

@@ -1,24 +1,5 @@
-@font-face {
-  font-family: "Nunito";
-  src: url(./assets/font/Nunito/static/Nunito-Medium.ttf);
-}
+@import url(./custom-font.css);
 
-@font-face {
-  font-family: "Nunito";
-  src: url(./assets/font/Nunito/static/Nunito-LightItalic.ttf);
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Nunito";
-  src: url(./assets/font/Nunito/static/Nunito-Bold.ttf);
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Pacifico";
-  src: url(./assets/font/Pacifico/Pacifico-Regular.ttf);
-}
 
 @keyframes slideUp {
   0% {
@@ -710,14 +691,4 @@ footer {
   }
 }
 
-/* @media screen and (max-width: 600px) {
-  html {
-    font-size: 0.8rem;
-  }
-}
 
-@media screen and (max-width: 460px) {
-  html {
-    font-size: 0.4rem;
-  }
-} */

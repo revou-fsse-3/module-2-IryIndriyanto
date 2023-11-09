@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 # Table of Content
 
-- [About Website](#about-website)
+- [About Cooking Cat](#about-cooking-cat)
 - [Key Features](#key-features)
 - [About Author](#about-author)
 - [Module-2 Assignment Checklist](#module-2-assignment-checklist)
@@ -11,12 +11,12 @@
 <!-- omit in toc -->
 # COOKING CAT
 
- Visit Cooking Cat [revou-fsse-3.github.io/module-2-IryIndriyanto](https://revou-fsse-3.github.io/module-2-IryIndriyanto/)
+ Visit Cooking Cat [revou-fsse-3.github.io/module-2-IryIndriyanto](https://revou-fsse-3.github.io/module-2-IryIndriyanto/) or at [ranu.fun](https://ranu.fun)
 
 ---
 >#### ***"From Kitchen to Heart: Where Recipes Become Memories"***
 ---
-## About Website
+## About Cooking Cat
 
 Welcome to Cooking Cat, your ultimate destination for culinary inspiration and delectable delights. i am passionate about the art of cooking and are delighted to share my love for food with you.
 
@@ -66,7 +66,7 @@ Let's connect on [linkedIn](https://www.linkedin.com/in/iry-indriyanto-357167111
 
 - [ ] Documenting deployment
 - [x] Connect Netlify to Github (Github Pages)
-- [ ] Using custom domain
+- [x] Using custom domain
 ---
 ## Module-2 Advanced Assignment
 
